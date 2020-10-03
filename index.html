@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Allyson Athyrson</title>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/e254a39363.js" crossorigin="anonymous"></script>
+
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
+
+        <link href="style.css" rel="stylesheet" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class='navbar'>
+                <div class='navlogo'>
+                    <span>Allyson Athyrson</span>
+                </div>
+                <div class='navlink'>
+                    <a href='#myself'>Myself</a>
+                    <a href='#conhecimentos'>Conhecimentos</a>
+                    <a href='#formacao'>Formação</a>
+                </div>
+            </nav>
+        </header>
+        <div class="conteudo">
+            <!-- <span class='btn-projetos-md'><i class="fas fa-asterisk"></i></span> -->
+            <div class='grupo-projetos-md'>
+                <div class='projetos-close'>
+                    <div class='alinha-projeto-imagem'>
+                        <img src='img/logo_skysongs.png' class='projeto-imagem' />
+                    </div>
+                    <div class='alinha-projeto-imagem'>
+                        <img src='img/logo_pizzaria.jpg' class='projeto-imagem' />
+                    </div>
+                    <div class='alinha-projeto-imagem'>
+                        <img src='img/projeto-imagem.jpg' class='projeto-imagem' />
+                    </div>
+                </div>
+                <div class='projeto-skysong' id='skysong'>
+                    <a href='http://skysongs.epizy.com/' target="_blank" class='projeto-link'>
+                        <div class='alinha-projeto-imagem'>
+                            <img src='img/logo_skysongs.png' class='projeto-imagem' />
+                        </div>
+                        <div class='projeto-titulo'>
+                            <p>Sky</p>
+                            <p style="float: right;">Song</p>
+                        </div>
+                    </a>
+                    <i class="fas fa-info-circle icone-mais-info"></i>
+                    <p class='projeto-descricao'>Desenvolvi este site com muita paixão por poder unir três coisas que amo, jogos, animes e programação. Replica não fiel a um piano do jogo 'Sky, Filhos da luz', em que é possível praticar e aprender novas canções <b>(recomendo o uso em smartphones)</b>.</p>
+                </div>
+                <div class='projeto-pizzaria' id='pizzaria'>
+                    <a href='http://pizzariapizzaria.epizy.com/?i=1' target="_blank" class='projeto-link'>
+                        <div class='alinha-projeto-imagem'>
+                            <img src='img/logo_pizzaria.jpg' class='projeto-imagem' />
+                        </div>
+                        <div class='projeto-titulo'>
+                            <p>Pizzaria</p>
+                        </div>
+                    </a>
+                    <i class="fas fa-info-circle icone-mais-info"></i>
+                    <p class='projeto-descricao'>Primeiro site que me orgulho de ter feito, apesar de ter seus defeitos, gostei do resultado. O site é especializado em pizzas, logo de cara mostrando inúmeros sabores classificados em categorias. Também possuim informações sobre outros tipos de fast food, imagens dos estabelecimentos, a história da empresa, opcões de contato e pedido pelo whatsapp.</p>
+                </div>
+                <div class='projeto-a3' id='a3'>
+                    <a href='#' target="_blank" class='projeto-link'>
+                        <div class='alinha-projeto-imagem'>
+                            <img src='img/projeto-imagem.jpg' class='projeto-imagem' />
+                        </div>
+                        <div class='projeto-titulo'>
+                            <p>A3</p>
+                        </div>
+                    </a>
+                    <i class="fas fa-info-circle icone-mais-info"></i>
+                    <p class='projeto-descricao'>Vizando colocar meus últimos conhecimentos em prática, decidi criar esse site que explora vários recursos do AJAX. Site simples, onde é possível fazer busca de alguns filmes e séries pelo gênero e por entrada de texto, possuindo informações como trailer, direção e avaliações</p>
+                </div>
+            </div>
+
+            <div class='first-linha linha-divisoria'>
+                <span class='linha-divisoria-quebra'></span>
+                <span class='linha-divisoria-quebra'></span>
+            </div>
+
+            <div class='topicos'>
+                <section style="height: 69px;float:left;margin-top:-69px" id='myself'></section>
+                <div class='myself'>
+                    <h2><span class='efeito-titulo-topico'></span>Myself</h2>
+                    <p>No último ano do ensino médio eu descobri que gosto de programar, e se tem alguém que paga para fazer algo que adoro é isso que vou fazer pelo resto da minha vida. A possibilidade de criar qualquer coisa me faz ter muito ânimo em aprender e ajudar as pessoas com a TI, seja com AI, IOT ou VR, pretendo me especializar em uma dessas áreas. </p>
+                </div>
+                <section style="height: 69px;float:left;margin-top:-69px" id='conhecimentos'></section>
+                <div class='conhecimentos'>
+                    <h2><span class='efeito-titulo-topico'></span>Conhecimentos</h2>
+                    <ul class='lista-conhecimentos'>
+                        <li><i class="fab fa-php"></i><p>Php</p></li>
+                        <li><i class="fas fa-database"></i><p>MySQL</p></li>
+                        <li><i class="fab fa-js"></i><p>Javascript</p></li>
+                        <li><i class="fab fa-html5"></i><p>Html</p></li>
+                        <li><i class="fab fa-git"></i><p>Git</p></li>
+                        <li><i class="fab fa-css3-alt"></i><p>Css</p></li>
+                        <li><i class="fas fa-retweet"></i><p>Ajax</p></li>
+                        <li><i class="fas fa-wifi" style="transform: rotate(-130deg);"></i><p>JQuery</p></li>
+                    </ul>
+                </div>
+                <section style="height: 69px;float:left;margin-top:-69px" id='formacao'></section>
+                <div class='formacao'>
+                    <h2><span class='efeito-titulo-topico'></span>Formação</h2>
+                    <div class='elementos-formacao'>
+                        <div class='grupo-udf'>
+                            <button class="accordion">UDF Centro Universitário</button>
+                            <ul class="panel">
+                                <li>Formulação da documentação</li>
+                                <li>Design</li>
+                                <li>Programação</li>
+                                <li>Banco de dados</li>
+                            </ul>
+                        </div>
+                        <div class='grupo-udemy'>
+                            <button class="accordion">Udemy</button>
+                            <ul class="panel">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Bootstrap</li>
+                                <li>Javascript ES6</li>
+                                <li>PHP 7 OO</li>
+                                <li>MySQL</li>
+                                <li>JQuery</li>
+                                <li>MVC</li>
+                                <li>Slim API</li>
+                            </ul>
+                        </div>
+                        <div class='grupo-w3'>
+                            <button class="accordion">W3schools</button>
+                            <ul class="panel">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                        <div class='grupo-comunidade'>
+                            <button class="accordion">Comunidade</button>
+                            <ul class="panel">
+                                <li>Resolução de problemas e dúvidas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='linha-divisoria'>
+            <span class='linha-divisoria-quebra'></span>
+            <span class='linha-divisoria-quebra'></span>
+        </div>
+
+        <footer class='contato'>
+            <div class="elementos-contato">
+                <div class='icones-contato'>
+                    <a href="https://www.facebook.com/allyson.athyrson" class='elemento-contato' target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/allyson-athyrson-487461109/" class='elemento-contato' target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Allyson1602" class='elemento-contato' target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/allysonathyrson/" class='elemento-contato' target="_blank"><i class="fab fa-instagram"></i></a><br/>
+                </div>
+                <div class="info-contato">
+                    <span class='elemento-contato'>athyrsonallyson@gmail.com</span>
+                    <span class='elemento-contato'>(61) 9 9396-8144</span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
